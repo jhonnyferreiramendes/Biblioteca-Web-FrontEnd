@@ -1,0 +1,184 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Cadastrar_Alunos</title>
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="Home.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  Usuarios
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+  <a class="dropdown-item font-weight-bold" href="Cadastro_Aluno.html">Cadastrar Aluno </a>
+  <a class="dropdown-item font-weight-bold" href="Cadastro_Professor.html">Cadastrar Professor </a>
+  <a class="dropdown-item font-weight-bold" href="Lista_de_Alunos.html">Lista de Alunos </a>
+  <a class="dropdown-item font-weight-bold" href="Lista_de_Professores.html">Lista de Professores </a>
+</div>
+</li>
+    
+        <a class="nav-item nav-link active" href="#">Consultas</a>
+        <a class="nav-item nav-link active" href="#">Devolução</a>
+        <a class="nav-item nav-link disabled active" href="Login.html">Sair</a>
+      </div>
+    </div>    
+</nav>
+
+<div class = "container my-5 mx-auto" style="width: 1500px;">
+  <a href="Lista_de_Alunos.html" class="p-3 mb-2 bg-dark text-white" role="button" aria-pressed="true">Lista de alunos</a>
+  <a href="Lista_de_Professores.html" class="p-3 mb-2 bg-dark text-white" role="button" aria-pressed="true">Lista de professores</a>
+</div>
+
+  <div class = "container my-5">
+    <div class="row">
+      <div class="w-100 p-3">
+        <div class="card-header p-3 mb-2 bg-dark text-white">
+          <h4 class="card-header font-weight-bold text-center ">
+            Cadastro de Bibliotecário
+          </h4>
+          <div class="card-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputNome">Nome</label>
+                  <input type="text" class="form-control" id="inputNome" placeholder="Nome">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputCPF">CPF</label>
+                  <input type="text" class="form-control" id="inputCpf" placeholder="CPF">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputCurso">CIB</label>
+                  <input type="text" class="form-control" id="inputCib" placeholder="CIB">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputMatricula">Matrícula</label>
+                  <input type="text" class="form-control" id="inputMatricula" placeholder="Matricula">
+                </div>
+                <div class="form-group col-md-8">
+                  <label for="inputNome">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputTelefone">Telefone</label>
+                  <input type="tel" class="form-control" id="inputNome1" placeholder="Telelfone">
+                </div>
+                <div class="form-group col-md-6">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-3">
+                  <label for="inputCidade">Cidade</label>
+                  <input type="text" class="form-control" id="inputCidade" placeholder="Cidade">
+                </div>
+                <div class="form-group col-md-3">
+                  <label for="inputBairro">Bairro</label>
+                  <input type="text" class="form-control" id="inputBairro" placeholder="Bairro">
+                </div>
+                <div class="form-group col-md-3">
+                  <label for="inputRua">Rua</label>
+                  <input type="text" class="form-control" id="inputRua" placeholder="Rua">
+                </div>
+                <div class="form-group col-md-2">
+                  <label for="inputNumero">Numero</label>
+                  <input type="text" class="form-control" id="inputNumero" placeholder="Número">
+                </div>
+                <div class="form-group col-md-1">
+                  <label for="inputNome">UF</label>
+                  <label class="mr-sm-2 sr-only" for="inlineFormCustomSelectUF">Preferência</label>
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelectUF">
+                      <option selected>UF...</option>
+                      <option value="1">AC</option>
+                      <option value="2">AL</option>
+                      <option value="3">AP</option>
+                      <option value="4">AM</option>
+                      <option value="5">BA</option>
+                      <option value="6">CE</option>
+                      <option value="7">ES</option>
+                      <option value="8">GO</option>
+                      <option value="9">MA</option>
+                      <option value="10">MT</option>
+                      <option value="11">MS</option>
+                      <option value="12">MG</option>
+                      <option value="13">PA</option>
+                      <option value="14">PB</option>
+                      <option value="15">PR</option>
+                      <option value="16">PE</option>
+                      <option value="17">PI</option>
+                      <option value="18">RJ</option>
+                      <option value="19">RN</option>
+                      <option value="20">RS</option>
+                      <option value="21">RO</option>
+                      <option value="22">RR</option>
+                      <option value="2">SC</option>
+                      <option value="3">SP</option>
+                      <option value="1">SE</option>
+                      <option value="2">TO</option>
+                      <option value="3">DF</option>
+                      
+                    </select>
+                </div>
+              </div>
+
+              <div class="mx-auto" style="width: 180px;">
+                <div class="form-group col-md-12"></div>
+                <div class="form-group col-md-12"></div>
+                
+              <div class="mx-auto" style="width: 100px;">
+                <label for="inputGenero "><h5>GÊNERO</h6></label>
+              </div>
+              <div class="mx-auto" style="width: 100px;">
+                <div class="form-row">
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadioInline1"><h6>M</h6></label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadioInline2"><h6>F</h6></label>
+                </div>
+              </div>
+            </div>
+            
+                
+          </div>
+
+
+          <div class="mx-auto" style="width: 150px;">
+              <div class="form-group col-md-12"></div>
+              <div class="form-group col-md-12"></div>
+              <div class="form-group col-md-12"></div>
+              <div class="form-group col-md-12"></div>
+      
+
+            <a class="btn btn-primary" href="Lista_de_Usuarios.html" role="button">Salvar</a>
+            <input class="btn btn-secondary" type="reset" value="Limpar">
+                
+        
+          </form>
+        </div>
+        
+     
+       
+      
+       
+       
+      
+  
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

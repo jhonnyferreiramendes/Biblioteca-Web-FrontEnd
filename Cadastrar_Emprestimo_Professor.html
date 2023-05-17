@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Cadastrar_Alunos</title>
+</head>
+<body>
+ 
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="Home.html">Home</a>
+       
+               
+            <div class="nav-item dropdown">
+    
+    <a class="dropdown-toggle active text-white" href="#" id="navbarDropdownMenuUsuarios" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Usuarios
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuUsuarios">
+      <a class="dropdown-item font-weight-bold" href="Cadastro_Aluno.html">Cadastrar Aluno </a>
+      <a class="dropdown-item font-weight-bold" href="Cadastro_Professor.html">Cadastrar Professor </a>
+      <a class="dropdown-item font-weight-bold" href="Lista_de_Alunos.html">Lista de Alunos </a>
+      <a class="dropdown-item font-weight-bold" href="Lista_de_Professores.html">Lista de Professores </a>
+    </div>
+    </div>
+    
+    
+    
+    <div class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle active text-white" href="#" id="navbarDropdownMenuLivros" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Livros
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLivros">
+        <a class="dropdown-item font-weight-bold" href="Cadastrar_Livro.html">Cadastrar Livro</a>
+        <a class="dropdown-item font-weight-bold" href="Lista_de_Livros.html">Lista de Livros</a>
+      </div>
+    </div>
+    
+    
+    <div class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle active text-white" href="#" id="navbarDropdownMenuLivros" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Fazer Emprestimo
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLivros">
+        <a class="dropdown-item font-weight-bold" href="Cadastrar_Emprestimo_Aluno.html">Para um Aluno</a>
+        <a class="dropdown-item font-weight-bold" href="Cadastrar_Emprestimo_Professor.html">Para um Professor</a>
+      </div>
+    </div>
+    
+    
+            <a class="nav-item nav-link active text-white" href="Lista_de_Emprestimos.html">Lista de Emprestimos</a>
+            <a class="nav-item nav-link disabled active " href="Login.html">Sair</a>
+         
+          
+    </nav>
+
+<div class = "container my-5 mx-auto" style="width: 1500px;">
+  <a href="Lista_de_Emprestimos.html" class="p-3 mb-2 bg-dark text-white" role="button" aria-pressed="true">Lista de Emprestimos</a>
+</div>
+
+  <div class = "container my-5">
+    <div class="row">
+      <div class="w-100 p-3">
+        <div class="card-header p-3 mb-2 bg-dark text-white">
+          <h4 class="card-header font-weight-bold text-center ">
+            Fazer Emprestimo para Professor
+          </h4>
+          <div class="card-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label for="inputNome">ID do(s) Livro(s)</label>
+                  <input type="text" class="form-control" id="inputNomeLivro" placeholder="ID do(s) Livro(s)">
+                </div>
+                <div class="form-group col-md-12">
+                  <label for="inputCPF">ID do Professor</label>
+                  <input type="text" class="form-control" id="inputIDprofessor" placeholder="ID do Professor">
+                </div>
+                <div class="form-group col-md-12">
+                  <label for="inputCurso">Data do Empréstimo</label>
+                  <input type="date" class="form-control" id="inputDataEmprestimo" >
+                </div>
+               
+                  <div class="form-group col-md-12">
+                  </div>
+                  <div class="mx-auto" style="width: 150px;">
+                    <div class="form-group col-md-12"></div>
+                  <a class="btn btn-primary" href="Lista_de_Usuarios.html" role="button">Salvar</a>
+                  <input class="btn btn-secondary" type="reset" value="Limpar">
+              </div>
+            </div>
+              </div>
+            </div>
+            
+                
+          </div>
+
+
+          
+                
+        
+          </form>
+        </div>
+        
+     
+       
+      
+       
+       
+      
+  
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
